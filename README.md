@@ -1,8 +1,37 @@
-# FarmTech — Frontend
+CSI606-2025-01 - FarmTech 
+Discente: Raysa Paiva Magalhães
 
-> Instruções para rodar o frontend localmente (Next.js).
+## Resumo
+O FarmTech é uma plataforma de gestão agrícola moderna, projetada para auxiliar pequenos produtores no controle de rebanhos. O sistema foca no monitoramento nutricional e de saúde dos animais, utilizando uma interface reativa para facilitar o lançamento de dados diretamente no campo.
 
----
+### 1. Tema
+Desenvolvimento de uma AgTech (Sistemas Web aplicados à Agropecuária) para gestão de dados zootécnicos, utilizando tecnologias de ponta para garantir performance e integridade de dados.
+
+### 2. Escopo
+Este projeto apresenta as seguintes funcionalidades:
+
+- Gestão de Alimentação: Registro de dietas e controle de lotes.
+- Controle de Saúde: Cadastro de vacinas, medicamentos e histórico de tratamentos.
+- Persistência em Tempo Real: Sincronização automática com o banco de dados.
+
+### 3. Restrições
+Neste trabalho não serão considerados:
+
+- Módulo de geolocalização por GPS dos animais.
+- Integração direta com hardware de sensores (IoT) nesta versão.
+- Geração de notas fiscais ou controle tributário.
+
+### 4. Tecnologias Utilizadas 
+
+- Linguagem: TypeScript 
+- Frontend: Next.js
+- Estilização: Tailwind CSS 
+- Banco de Dados: Firebase Realtime Database
+
+
+
+### 6. Como rodar o projeto
+
 
 ## Pré-requisitos
 
@@ -89,7 +118,3 @@ pnpm start
 - Para o `FIREBASE_PRIVATE_KEY`, se ocorrer erro do tipo `missing private key` ou `invalid credentials`, confirme que as quebras de linha foram escapadas como `\\n` no `.env.local`.
 - Se preferir usar `npm` em vez de `pnpm`, substitua `pnpm` por `npm` nos comandos (`npm install`, `npm run dev`, etc.).
 
-
----
-
-Arquivo criado: este README com instruções básicas para rodar o frontend localmente.
