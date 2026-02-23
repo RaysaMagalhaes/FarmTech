@@ -89,9 +89,6 @@ pnpm start
 - Para o `FIREBASE_PRIVATE_KEY`, se ocorrer erro do tipo `missing private key` ou `invalid credentials`, confirme que as quebras de linha foram escapadas como `\\n` no `.env.local`.
 - Se preferir usar `npm` em vez de `pnpm`, substitua `pnpm` por `npm` nos comandos (`npm install`, `npm run dev`, etc.).
 
-## Próximos passos
-
-- Se quiser, eu posso: criar um arquivo `.env.example`, commitar o README, ou executar o app localmente (se você permitir executar comandos).
 
 ---
 
